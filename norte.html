@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorador BR | Norte</title>
+    <link rel="shortcut icon" type="imagex/png" href="assets/images/icon.png">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-logo">
+            <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+        </div>
+        <div class="header-container">
+            <a href="./index.html#Galeria">
+                <p>GALERIA</p>
+            </a>
+            <a href="./index.html#Mapa">
+                <p>MAPA</p>
+            </a>
+            <a href="./quiz.html">
+                <p>QUIZ</p>
+            </a>
+            <a href="./about.html">
+                <p>SOBRE NÓS</p>
+            </a>
+        </div>
+        <div class="input-wrapper">
+            <div class="search-bar">
+                <input id="searchInput" type="text" placeholder="Pesquisar...">
+                <i class="uil uil-search" id="searchButton"></i>
+            </div>
+        </div>
+        
+        <div class="btn-abrir-menu" id="btn-menu">
+            <i class="uil uil-bars"></i>
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile">
+            <div class="btn-fechar">
+                <i class="uil uil-times"></i>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./index.html#Galeria">GALERIA</a></li>
+                    <li><a href="./index.html#Mapa">MAPA</a></li>
+                    <li><a href="./quiz.html">QUIZ</a></li>
+                    <li><a href="./about.html">SOBRE NÓS</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="overlay-menu" id="overlay-menu"></div>
+
+    </header>
+
+    <main>
+
+        <br />
+        <div class="slideshow">
+            <!--Image Slider Start-->
+            <div class="slider">
+                <div class="slides">
+                    <!--Radio Buttons Start-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <input type="radio" name="radio-btn" id="radio5">
+                    <!--Radio Buttons End-->
+                    <!--Slide Images Start-->
+                    <div class="slide first">
+                        <img src="assets/images/norte/slide1.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/norte/slide2.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/norte/slide3.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/norte/slide4.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/norte/slide5.jpg" alt="">
+                    </div>
+                    <!--Slide Images End-->
+                    <!--Automatic Navigation Start-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                        <div class="auto-btn5"></div>
+                    </div>
+                    <!--Automatic Navigation End-->
+                </div>
+                <!--Manual Navigation Start-->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                    <label for="radio5" class="manual-btn"></label>
+                </div>
+                <!--Manual Navigation End-->
+            </div>
+            <!--Image Slider End-->
+        </div>
+
+        <div class="introduction">
+            <br />
+            <font size="5">
+                <b>
+                    <h2> Região Do Norte </h2>
+                </b>
+            </font>
+
+            <br /> <img src="assets/images/Norte/mapa.jpg" align="center"></br>
+
+            <br>
+            <center>
+                Região Norte é composta por sete estados brasileiros, sendo a maior em extensão territorial e a que
+                concentra a maior área verde do país, com a Floresta Amazônica.
+            </center>
+
+            <br /><br />
+            <font size="5">
+                <h2>Estados</h2>
+            </font>
+
+            <br />
+            <center>
+                Apesar de ser a maior do país, a região Norte não concentra o maior número de estados. São eles:
+            </center>
+            <br />
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>Estados</th>
+                        <th>Capitais</th>
+                        <th>Gentílicos</th>
+
+                    </tr>
+                    <tr>
+                        <td>Acre</td>
+                        <td>Rio Branco</td>
+                        <td>Acriano</td>
+
+                    </tr>
+                    <tr>
+                        <td>Amapá</td>
+                        <td>Macapá</td>
+                        <td>Amapaense</td>
+
+                    </tr>
+                    <tr>
+                        <td>Amazonas</td>
+                        <td>Manaus</td>
+                        <td>Amazonense</td>
+
+                    </tr>
+                    <tr>
+                        <td>Pará</td>
+                        <td>Belém</td>
+                        <td>Paraense</td>
+                    </tr>
+                    <tr>
+                        <td>Rondônia</td>
+                        <td>Porto Velho</td>
+                        <td>Rondoniense</td>
+                    </tr>
+                    <tr>
+                        <td>Roraima</td>
+                        <td>Boa Vista</td>
+                        <td>Roraimense</td>
+                    </tr>
+                    <tr>
+                        <td>Tocantins</td>
+                        <td>Palmas</td>
+                        <td>Tocantinense</td>
+                    </tr>
+
+                </table>
+
+            </div>
+            <br /><br /><br /><br /><br />
+            <font size="2">
+                <h1>Breve Histórico do Norte</h1>
+            </font>
+
+            <br /><br />
+
+            <div class="CO-images">
+                <img src="assets/images/Norte/brevehistoria.jpg" align="left">
+            </div>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+            <justify>
+                A história do Brasil mostra-nos que, no início da colonização portuguesa, as ocupações humanas estavam
+                concentradas nas faixas litorâneas. Por conto disso, somente no século XVII é que a região Norte começou
+                a ser ocupada pelos colonizadores, por meio de incentivos do governo português, com a instalação de um
+                forte militar na foz do Rio Amazonas. Essa ocupação deu origem à cidade de Belém, no Pará.<br>
+                No século XVIII, houve dois tipos de ocupações: as religiosas, para catequização dos nativos, e as
+                militares, para defender o território nacional.<br>
+                Já nos séculos XIX e XX, novas moradias começaram a surgir por motivos econômicos e sociais, devido à
+                exploração da borracha, no interior da Amazônia, e com a imigração japonesa, concentrada no estado do
+                Pará.<br>
+            </justify>
+            <br /><br /><br />
+
+            <font size="2">
+                <h1>Clima da Região</h1>
+            </font>
+            <br />
+
+            <div class="CO-images">
+                <img src="assets/images/Norte/clima.jpg" align="left">
+            </div>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <justify>
+                O Norte do país é a única região brasileira cortada pela Linha do Equador. Com isso, grande parte do
+                clima dessa região é o equatorial, além de ser encontrado o clima tropical continental.<br>
+                O clima equatorial é presente em todos os estados, exceto em algumas áreas do Tocantins, Pará e Roraima.
+                Bastante quente e chuvoso, esse clima permite-nos dizer que não há inverno como nas outras regiões do
+                Brasil. Já o clima tropical continental, encontrado nos trechos em que o equatorial não alcança, tem
+                duas características bem definidas: um inverno seco e um verão chuvoso.<br>
+            </justify> <br /><br /><br /><br />
+
+            <font size="2">
+                <h1>Hidrografia da Região</h1>
+            </font>
+            <br /><br />
+
+            <div class="CO-images">
+                <img src="assets/images/Norte/hidrografia.jpg" align="left">
+            </div>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <br /><br />
+            <justify>
+                A hidrografia da região Norte abrange duas bacias hidrográficas do Brasil: a bacia hidrográfica
+                amazônica e a bacia hidrográfica Tocantins-Araguaia.<br>
+                A primeira corresponde a 45% do território brasileiro e banha os seguintes estados: Amazonas, Acre,
+                Amapá, Pará, Rondônia e Roraima e o estado do Mato Grosso, no Centro-Oeste.<br>
+                O rio da dá nome à bacia, o rio Amazonas é o maior da região e do mundo em volume de água, o que mostra
+                sua grande importância para todos que estão ao seu redor. Esse rio nasce nas montanhas do Peru e deságua
+                no Pará, atingindo o oceano Atlântico.<br>
+                Quando entra em território brasileiro, o rio Amazonas recebe o nome de rio Solimões. Quando ele se
+                encontra com o rio Negro, forma uma paisagem magnífica devido ao contraste das águas. Após esse
+                encontro, volta a ser chamado de Amazonas.<br>
+            </justify>
+            <br /><br />
+
+
+            <font size="2">
+                <h1>Vegetação da Região</h1>
+            </font>
+            <br /><br />
+            <div class="co-images">
+                <img src="assets/images/Norte/vegetação.jpg" align="left">
+            </div>
+
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <br /><br /><br /><br /> <br /><br />
+            <justify>
+                O destaque da região Norte nesse aspecto é a Floresta Amazônica. A intensidade de chuvas na região
+                permite uma grande biodiversidade, com vegetação densa e sempre verde. É a maior floresta do mundo de
+                regiões quentes, concentrando a maior biodiversidade terrestre do planeta.<br>
+                Podemos citar algumas características dessa floresta:<br>
+                variadas plantas;<br>
+                espécies adaptadas ao clima úmido (higrófila);<br>
+                árvores com folhas latifoliadas, isto é, grandes e largas;<br>
+                tamanhos variados das árvores, que podem atingir mais de 30 m de altura;<br>
+                árvores muito próximas, o que garante uma vegetação fechada;<br>
+                riqueza de matéria-prima, como madeira, piaçava e plantas medicinais.<br>
+
+            </justify>
+            <br /><br />
+
+            <font size="2">
+                <h1>Economia da Região</h1>
+            </font>
+
+            <br /><br />
+            <div class="co-images">
+                <img src="assets/images/Norte/economia.jpg" align="left">
+            </div>
+
+
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /><br />
+
+            <justify>
+                Para incentivar a economia e o povoamento da região, na década de 1960 foram criados alguns órgãos
+                governamentais responsáveis pelo estímulo econômico no Norte do Brasil. Dentre eles podemos destacar a
+                Superintendência do Desenvolvimento da Amazônia (Sudam) e a Superintendência da Zona Franca de Manaus
+                (Suframa).<br><br>
+                Esta última corresponde a um grande polo industrial, idealizado em 1967 e localizado em Manaus, que
+                abriga grandes multinacionais, propiciando um enorme desenvolvimento industrial e geração de empregos
+                para a região.<br><br>
+                Esse polo concentra três tipos de atividades: comercial, agropecuária e industrial (a mais forte de
+                todas). De acordo com a Suframa, existem mais de 600 indústrias no polo e uma geração de mais de 500 mil
+                empregos, diretos e indiretos. As áreas de produção industrial que se destacam são: eletroeletrônicos
+                (celulares, TVs), duas rodas (motocicletas) e química (produção de matéria-prima para refrigerante).
+                Além disso, coexistem com esse desenvolvimento industrial as atividades econômicas naturais, como
+                agricultura, pecuária e extrativismo vegetal e mineral.<br><br>
+                Na agricultura, podemos citar a produção de pimenta do reino, iniciada com os japoneses no início do
+                século passado; e o cultivo da juta, uma espécie de árvore plantada na beira dos rios de que é extraída
+                uma fibra vegetal utilizada na produção de tapetes e cordas. Além desses produtos, a região Norte é a
+                maior produtora de fibras do país, sendo a juta e a malva plantas importantíssimas nesse
+                processo.<br><br>
+                Já a pecuária é desenvolvida de forma extensiva, com destaque para a pecuária bovina e a criação de
+                búfalos. Esta última está concentrada no estado do Pará, em áreas alagadas, e corresponde a 68% da
+                produção nacional.<br><br>
+                Os extrativismos vegetal e mineral representam uma importante fonte de renda para a população local. No
+                extrativismo vegetal, a força da extração de madeira está nos estados do Pará e do Amazonas. É produzida
+                na região Norte uma grande variedade de palmito, açaí e outros vegetais das árvores locais.<br><br>
+                A borracha ainda está presente nas atividades extrativistas, mas não com a força do início do século XX,
+                pois vem perdendo espaço para a agropecuária. Além disso, a biodiversidade da floresta amazônica atrai a
+                indústria farmacêutica na busca de medicamentos e plantas medicinais, além de oferecer cosméticos para a
+                indústria da beleza.<br><br>
+                A extração mineral iniciou-se ainda na década de 1950 como estratégia de povoamento da região pelo
+                Governo Federal da época. Dentre os minérios encontrados na região Norte, podemos destacar:<br><br>
+                <b>
+                    manganês, no Amapá;<br>
+                    cassiterita, em Rondônia;<br>
+                    ferro, no Pará;<br>
+                    bauxita, no Pará;<br>
+                    níquel, no Pará.<br>
+                    ouro, em vários estados, mas com ênfase no Amazonas e no Pará.
+                </b><br><br>
+                O extrativismo mineral na região Norte é uma das bases econômicas de muitos estados, como o Pará. Nesse
+                estado, temos a presença de ferro, na Serra dos Carajás, e do ouro, na Serra Pelada. Esta última área
+                atraiu uma grande quantidade de garimpeiros na década de 1980, acelerando o desmatamento e a poluição
+                nela.
+                <br /><br /><br /><br />
+
+                <font size="2">
+                    <h1>Demografia da Regiao</h1>
+                </font>
+
+                <br /><br />
+                <div class="co-images">
+                    <img src="assets/images/Norte/demografia.jpg" align="left">
+                </div>
+
+
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <br /><br /><br /><br />
+                <br /><br /><br /><br /><br /><br /><br />
+
+                <justify>
+                    A população da região Norte não cresceu de forma expressiva até os anos 1970, por ser uma região
+                    muito grande, e, até essa década, a comunicação era precária e havia pouco desenvolvimento
+                    econômico.<br><br>
+                    A partir de 1970, minérios foram descobertos, garimpos surgiram e o desmatamento foi intensificado
+                    pela agropecuária. Esses fatores geraram uma migração em massa para a região, que atualmente é a
+                    segunda em termos de taxa de crescimento demográfico, sendo a primeira a região
+                    Centro-Oeste.<br><br>
+                    De acordo com os dados do IBGE de 2019, a região Norte conta com pouco mais de 18 milhões de
+                    habitantes, porém sua população está mal distribuída. Por exemplo: o estado do Amazonas, maior da
+                    região, possui uma densidade demográfica de 2,23 hab/km², sendo essa a segunda menor da região, a
+                    menor está no estado de Roraima. Esses últimos dados são do IBGE, de 2010. Belém, capital do Pará,
+                    possui uma densidade demográfica de 1315 hab/km², dados do IBGE de 2010, o que reforça a
+                    desigualdade demográfica da região.<br><br>
+                    Vários fatores podem explicar essa distribuição irregular de pessoas, mas vamos citar apenas dois: o
+                    primeiro é a vegetação. Grande parte da região é ocupada pela Floresta Amazônica, o que impede
+                    algumas áreas de serem ocupadas. O segundo fator é a presença da população ribeirinha, que vive na
+                    beira dos rios, ao longo de suas margens.<br><br>
+                </justify>
+
+                <br /><br /><br />
+                <font size="2">
+                    <h1>Cultura da Regiao</h1>
+                </font>
+
+                <br /><br />
+                <div class="co-images">
+                    <img src="assets/images/Norte/cultura.jpg" align="left">
+                </div>
+
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /><br />
+                <justify>
+
+                    A grande quantidade de imigrantes na região Norte faz com que haja nela uma grande diversidade
+                    cultural.<br><br>
+                    As duas festas mais populares da região ocorrem em junho, no estado do Amazonas, e no segundo
+                    domingo de outubro, no Pará. Em junho temos o Festival de Parintins. Esse festival reúne o evento do
+                    boi-bumbá e é marcado pela disputa artística do Boi Caprichoso, na cor azul, e do Boi Garantido, na
+                    cor vermelha. São três dias de festas, com várias apresentações das populações locais, carimbó e
+                    muita diversão.<br><br>
+                    No Pará, em outubro, temos o Círio de Nazaré, uma procissão religiosa católica na cidade de Belém em
+                    homenagem a Nossa Senhora de Nazaré. Essa procissão reúne católicos do mundo todo, sendo um dos
+                    eventos mais importantes para o catolicismo brasileiro.<br><br>
+
+                    <br /><br /><br />
+                    <a href="#ac" id="ac">
+                        <h2>Acre</h2>
+                    </a>
+                    <br />
+                    <div class="bandeira-estado">
+                        <img src="assets/images/Norte/acre.jpg">
+                    </div>
+
+                    <br /><br /><br /><br /><br /><br /><br />
+
+                    O Acre é um dos 27 estados brasileiros, tendo sido elevado a essa condição no ano de 1962. Antes de
+                    ser anexado ao Brasil, ele pertencia à Bolívia e ao Peru. Localiza-se na Região Norte, no bioma
+                    Amazônia, e o clima predominante é o equatorial úmido.<br>
+                    O estado é um grande exportador de castanha-do-pará e madeira, além de ser o principal produtor de
+                    borracha do país.<br><br>
+
+
+                    <a href="#ap" id="apenas">
+                        <h2>Amapá</h2>
+                    </a>
+                    <div class="bandeira-estado">
+                        <img src="assets/images/Norte/amapa.jpg">
+                    </div>
+
+                    <br /><br /><br /><br /><br /><br /><br />
+                    O Amapá é um dos estados do Brasil e situa-se no extremo norte do território. Integra a Região
+                    Norte, onde faz divisa com o Pará e com dois países: Guiana Francesa e Suriname. O clima amapaense é
+                    o equatorial úmido, e sua cobertura vegetal é formada por florestas, vegetação litorânea e algumas
+                    áreas de cerrado. O estado possui uma vasta rede fluvial, o que proporciona a utilização dos rios
+                    como vias de transporte.
+                    <br /><br />
+
+                    <a href="#am" id="am">
+                        <h2>Amazonas</h2>
+                    </a>
+
+                    <div class="bandeira-estado">
+                        <img src="assets/images/Norte/amazonas.jpg">
+                    </div>
+
+                    <br /><br /><br /><br /><br /><br /><br />
+
+                    O estado do Amazonas pertence à região Norte do Brasil, sendo o maior em território, com uma
+                    população de 4,2 milhões de habitantes. Tem na sua capital, Manaus, a principal cidade e aglomeração
+                    urbana do estado. O estado apresenta dinâmica econômica voltada aos setores secundário e terciário,
+                    com destaque para os serviços e a indústria, que somam juntos mais de 80% do seu PIB.<br /><br />
+
+                    <a href="#pa" id="pa">
+                        <h2>Pará</h2>
+                    </a>
+
+                    <div class="bandeira-estado">
+                        <img src="assets/images/Norte/pará.jpg">
+                    </div>
+
+                    <br /><br /><br /><br /><br /><br /><br />
+                    Pará é o segundo maior estado da região Norte do Brasil, concentrando quase a metade de sua
+                    população. Possui relevo pouco acidentado e situa-se inteiramente na Amazônia.
+
+                </justify>
+
+                <br /><br /><br />
+                <a href="#ro" id="ro">
+                    <h2>Rondônia</h2>
+                </a>
+
+                <div class="bandeira-estado">
+                    <img src="assets/images/Norte/rondonia.jpg">
+                </div>
+
+                <br /><br /><br /><br /><br /><br /><br />
+                Rondônia é um estado brasileiro da região Norte. É composto por planícies em sua maioria, e consiste
+                atualmente em uma das áreas de expansão da fronteira agrícola brasileira.
+            </justify>
+
+            <br /><br /><br />
+            <a href="#rr" id="rr">
+                <h2>Roraima</h2>
+            </a>
+
+            <div class="bandeira-estado">
+                <img src="assets/images/Norte/roraima.jpg">
+            </div>
+
+            <br /><br /><br /><br /><br /><br /><br />
+            Roraima é o estado mais setentrional do território brasileiro. Sua população é a menor do país,
+            concentrando-se na capital. O estado é um grande produtor de arroz e soja.
+            </justify>
+
+            <br /><br /><br />
+            <a href="#to" id="to">
+                <h2>Tocantins</h2>
+            </a>
+
+            <div class="bandeira-estado">
+                <img src="assets/images/Norte/tocantins.jpg">
+            </div>
+
+            <br /><br /><br /><br /><br /><br /><br />
+            O Tocantins foi o último estado brasileiro a ser criado, tendo sido estabelecido no ano de 1988. Está
+            localizado na Região Norte do país e conta com 1,5 milhão de habitantes.
+            </justify>
+
+            <br /><br /><br />
+            <br /><br /><br />
+</body>
+
+</div>
+
+</main>
+
+<div id="btnTop">
+    <i class="uil uil-arrow-up"></i>
+</div>
+<footer>
+    <div class="footer-map">
+        <h4>Mapa do Site ></h4>
+        <a href="index.html">
+            <p>Home</p>
+        </a>
+        <a href="quiz.html">
+            <p>QUIZ</p>
+        </a>
+        <a href="./index.html#Galeria">
+            <p>Galeria</p>
+        </a>
+        <a href="index.html#Mapa" id="index.html#Mapa">
+            <p>Mapa</p>
+        </a>
+        <a href="./about.html">
+            <p>Sobre Nós</p>
+        </a>
+    </div>
+
+    <div class="footer-regions">
+        <h4>Regiões ></h4>
+        <a href="./centrooeste.html">
+            <p>Centro-Oeste</p>
+        </a>
+        <a href="./nordeste.html">
+            <p>Nordeste</p>
+        </a>
+        <a href="./sudeste.html">
+            <p>Sudeste</p>
+        </a>
+        <a href="./norte.html">
+            <p>Norte</p>
+        </a>
+        <a href="./sul.html">
+            <p>Sul</p>
+        </a>
+    </div>
+    <div class="footer-logo">
+        <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+        <p>O melhor do Brasil para você!</p>
+    </div>
+    <div class="footer-group">
+        <h4>Integrantes do Grupo</h4>
+        <p>
+            Jackson Antonio Silva<a target="_blank" href="https://github.com/JackCoder0">
+                <i class="uil uil-github"></i>
+            </a><a target="_blank"
+                   href="https://www.instagram.com/nevergiveup_man0/"><i class="uil uil-instagram"></i></a><a target="_blank" href="https://www.linkedin.com/in/jackson-silva-coder/">
+                <i class="uil uil-linkedin"></i>
+            </a>
+        </p>
+        <p>
+            Matheus Dias Lima<a href=""><i class="uil uil-github"></i></a><a href="">
+                <i class="uil uil-instagram"></i>
+            </a><a href=""><i class="uil uil-linkedin"></i></a>
+        </p>
+        <p>
+            Suzana K. Dos Santos Dantas<a href="https://github.com"><i class="uil uil-github"></i></a><a href="https://www.instagram.com"><i class="uil uil-instagram"></i></a><a href="https://www.linkedin.com"><i class="uil uil-linkedin"></i></a>
+        </p>
+        <p>
+            Pedro Henrique Souza<a href="https://github.com/GondimPedro"><i class="uil uil-github"></i></a><a href="https://www.instagram.com/">
+                <i class="uil uil-instagram"></i>
+            </a><a href="https://www.linkedin.com/in/pedro-gondim-b3b659159/"><i class="uil uil-linkedin"></i></a>
+        </p>
+        <p>
+            Kaique Roberto Da Silva<a href="https://github.com"><i class="uil uil-github"></i></a><a href="https://www.instagram.com"><i class="uil uil-instagram"></i></a><a href="https://www.linkedin.com"><i class="uil uil-linkedin"></i></a>
+        </p>
+    </div>
+</footer>
+<div class="footer-copy">
+
+</div>
+
+<script src="assets/js/script.js"></script>
+</body>
+
+</html>
